@@ -29,4 +29,7 @@ elif operador == 'Dividir':
     v1 = int(v1)
     v2 = int(v2)
     print(operadores.divicion(v1,v2))
+
+else:
+    print('No se encuentra ese operador intentalo de nuevo')
  
