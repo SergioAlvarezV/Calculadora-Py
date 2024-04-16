@@ -1,7 +1,7 @@
 import operadores
 def user_input():
   operadores = ('Sumar', 'Restar', 'Multiplicar', 'Dividir')
-  user_options = input('Que quiere hacer Sumar, restar, multiplicar o dividir ')
+  user_options = input('Que quiere hacer Sumar, restar, multiplicar o dividir => ')
   user_options = user_options.capitalize()
   if user_options not in operadores:
     print('Esa operador no esta en las opciones')
